@@ -1,0 +1,48 @@
+form{
+	border: 1px solid #000000;
+	width: fit-content;
+	margin: auto;
+	border-radius:16px;
+	background: #FFFFFF;
+}
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+body{
+	background: #6600cc;
+}
+p{
+	text-align: center;
+	font-family: sans-serif;
+}
+input[type=text],input[type=email]{
+	border: none;
+	margin: auto;
+	font-size: 20px;
+}
+input[type=number]{
+	font-size: 21px;
+   -moz-appearance:textfield;
+   border: none;
+}
+}
+input[type=text]:focus,input[type=email]:focus{
+	outline: none;
+	border-bottom-color: #000000;
+
+	margin: auto;
+}
+textarea{
+	border: none;
+}
+button{
+	background: : #000000
+	border: none;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+button:hover{
+	background: #32a852
+}
